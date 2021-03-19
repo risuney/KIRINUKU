@@ -37,7 +37,11 @@ inputimg.addEventListener('change', function() {
               }
             } else if(document.form.radio[i].value == "cir"){//circle
               ctx.beginPath();
-              ctx.arc(w/2, h/2, w/2, 0*Math.PI/180, 360*Math.PI/180);
+              if (h > w) {
+                ctx.arc(w/2, h/2, w/2, 0*Math.PI/180, 360*Math.PI/180)
+              } else {
+                ctx.arc(w/2, h/2, h/2, 0*Math.PI/180, 360*Math.PI/180)
+              }
             }
           }
         }
