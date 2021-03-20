@@ -23,7 +23,7 @@ inputimg.addEventListener('change', function() {
         for(var i=0; i<document.form.radio.length;i++){
           if(document.form.radio[i].checked){
             if (document.form.radio[i].value == "ios") {//iOS icon
-              var c = 0.234375;//iOS係数
+              var c = 0.225;//iOS係数
               var r　= w*c;  //角丸の半径
               ctx.beginPath();
               drawsq();
