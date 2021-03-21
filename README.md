@@ -1,4 +1,4 @@
-# KIRINUKI
+# KIRINUKU
 ![icon](https://user-images.githubusercontent.com/77106106/111065762-bfd68a00-84fe-11eb-8038-8e9c68e949b6.png)
 
 Crop the photo.
